@@ -15,7 +15,7 @@ import Test from './components/Test'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <Test/>
+  <Test />
 </template>
 
 <style scoped>
