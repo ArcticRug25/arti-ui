@@ -15,13 +15,7 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['vue', '@typescript-eslint'],
-  rules: {},
-  overrides: [
-    {
-      files: '*.html',
-      rules: {
-        parser: 'html'
-      }
-    }
-  ]
+  rules: {
+    'vue/comment-directive': 'off'
+  }
 }

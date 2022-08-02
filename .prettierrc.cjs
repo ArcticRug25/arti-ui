@@ -16,5 +16,13 @@ module.exports = {
   proseWrap: 'never',
   // htmlWhitespaceSensitivity: 'css',
   // vueIndentScriptAndStyle: false,  // .vue 缩进
-  endOfLine: 'auto' // default lf
+  endOfLine: 'auto', // default lf
+  overrides: [
+    {
+      files: '*.html',
+      options: {
+        parser: 'html'
+      }
+    }
+  ]
 }

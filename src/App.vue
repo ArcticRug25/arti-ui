@@ -7,8 +7,12 @@ import Test from '@/components/Test'
 
 <template>
   <HelloWorld msg="Vite + Vue" />
-  <Test />
+  <Test>
+    <template #default>aaabbb</template>
+    <template #title>
+      <h1>title</h1>
+    </template>
+  </Test>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
