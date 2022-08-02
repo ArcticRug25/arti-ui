@@ -3,6 +3,8 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from '@/components/HelloWorld.vue'
 import Test from '@/components/Test'
+
+import ATButton from '@/button/src/button'
 </script>
 
 <template>
@@ -13,6 +15,8 @@ import Test from '@/components/Test'
       <h1>title</h1>
     </template>
   </Test>
+
+  <ATButton>按2钮</ATButton>
 </template>
 
 <style scoped></style>
