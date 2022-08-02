@@ -2,7 +2,7 @@
 :::demo abc
 ```vue
 <template>
-  <HelloWorld><HelloWorld/>
+  <HelloWorld></HelloWorld>
 </template>
 ```
 :::
