@@ -1,8 +1,8 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-import Test from './components/Test'
+import HelloWorld from '@/components/HelloWorld.vue'
+import Test from '@/components/Test'
 </script>
 
 <template>
@@ -22,6 +22,7 @@ import Test from './components/Test'
 .logo {
   height: 6em;
   padding: 1.5em;
+  transition: 0.2s;
   will-change: filter;
 }
 .logo:hover {
