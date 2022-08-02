@@ -1,4 +1,5 @@
 module.exports = {
+  // root: true,
   env: {
     browser: true,
     es2021: true
@@ -14,5 +15,13 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['vue', '@typescript-eslint'],
-  rules: {}
+  rules: {},
+  overrides: [
+    {
+      files: '*.html',
+      rules: {
+        parser: 'html'
+      }
+    }
+  ]
 }
