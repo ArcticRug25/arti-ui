@@ -1,6 +1,8 @@
 // 定义主题变量
 $at-border-radius: var(--at-border-radius, 2px); //一般圆角
+$at-font-size-sm: var(--at-font-size-sm, 10px); //当组件size为''时使用此字号大小
 $at-font-size-md: var(--at-font-size-md, 12px); //当组件size为''时使用此字号大小
+$at-font-size-lg: var(--at-font-size-lg, 14px); //当组件size为''时使用此字号大小
 $at-animation-duration-slow: var(--at-animation-duration-slow, 300ms);
 $at-animation-ease-in-out-smooth: var(
   --at-animation-ease-in-out-smooth,

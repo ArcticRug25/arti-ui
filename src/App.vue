@@ -16,7 +16,7 @@ import ATButton from '@/button/src/button'
     </template>
   </Test>
 
-  <ATButton type="primary">按钮1</ATButton>
+  <ATButton type="primary" size="large">按钮1</ATButton>
   <ATButton>按钮2</ATButton>
 </template>
 
