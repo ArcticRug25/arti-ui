@@ -10,9 +10,13 @@ $at-animation-ease-in-out-smooth: var(
 );
 $at-light-text: var(--at-light-text, #ffffff); // 有色深色背景下字体颜色（固定）
 $at-primary: var(--at-primary, #5e7ce0); // 主要按钮，同品牌色
+$at-primary-disabled: var(--at-primary-disabled, #879ada); // 主要按钮，同品牌色
 $at-primary-hover: var(--at-primary-hover, #7693f5); // 主要按钮悬停
 $at-primary-active: var(--at-primary-active, #344899); // 主要按钮激活
 $at-text: var(--at-text, #252b3a); // 正文文本
+$at-disabled-text: var(--at-disabled-text, #8891a7); // 正文文本
+$at-disabled-bg: var(--at-disabled-bg, #c2cce5); // 正文文本
+$at-disabled-line: var(--at-disabled-line, #a9b0c0); // 正文文本
 $at-block: var(
   --at-block,
   #ffffff

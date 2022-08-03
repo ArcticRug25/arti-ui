@@ -23,6 +23,11 @@
         $at-animation-ease-in-out-smooth,
       border-color $at-animation-duration-slow $at-animation-ease-in-out-smooth,
       color $at-animation-duration-slow $at-animation-ease-in-out-smooth;
+
+    // 禁用状态
+    &[disabled] {
+      @apply cursor-not-allowed
+    }
 }
 
 // button/src/style/button-mixin.scss

@@ -5,6 +5,10 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import Test from '@/components/Test'
 
 import ATButton from '@/button/src/button'
+
+const confirm = () => {
+  console.log('confirm')
+}
 </script>
 
 <template>
@@ -17,7 +21,10 @@ import ATButton from '@/button/src/button'
   </Test>
 
   <ATButton type="primary" size="large">按钮1</ATButton>
-  <ATButton>按钮2</ATButton>
+  <ATButton type="primary" size="small" disabled @click="confirm"
+    >按钮2</ATButton
+  >
+  <ATButton @click="confirm">按钮3</ATButton>
 </template>
 
 <style scoped></style>

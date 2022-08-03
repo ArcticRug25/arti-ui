@@ -30,6 +30,11 @@ $pseudo: (
     active: (
       background-color: $at-primary-active,
     ),
+    disabled: (
+      color: $at-light-text,
+      background-color: $at-primary-disabled,
+      border: none 
+    )
   ),
   secondary: (
     hover: (
@@ -44,6 +49,11 @@ $pseudo: (
       border-color: $at-form-control-line-active,
       color: $at-brand-active,
     ),
+    disabled: (
+      color: $at-disabled-text,
+      background-color: $at-disabled-bg,
+      border: 1px solid $at-disabled-line 
+    )
   ),
   text: (
     hover: (
@@ -55,6 +65,9 @@ $pseudo: (
     active: (
       color: $at-brand-active-focus,
     ),
+    disabled: (
+      color: $at-disabled-text
+    ) 
   )
 );
 

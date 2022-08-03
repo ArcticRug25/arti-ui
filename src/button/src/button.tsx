@@ -5,12 +5,15 @@ export default defineComponent({
   name: 'ATButton',
   props: buttonProps,
   setup(props: ButtonType, { slots }) {
-    const { type, size } = toRefs(props)
+    const { type, size, disabled } = toRefs(props)
 
     return () => {
       const defaultSlot = slots.default ? slots.default() : '按钮'
       return (
-        <button class={`at-btn at-btn--${type.value} at-btn--${size.value}`}>
+        <button
+          class={`at-btn at-btn--${type.value} at-btn--${size.value}`}
+          disabled={disabled.value}
+        >
           {defaultSlot}
         </button>
       )
