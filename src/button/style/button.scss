@@ -1,0 +1,16 @@
+// button/src/button.scss
+@use './button-config.scss';
+@import './button-base.scss';
+
+.at-btn {
+  @include button-base;
+
+  // 导入 type 相关的样式
+  @include button-variant(button-config.$type);
+
+  // 导入 hover 等伪类
+  @include button-variant(button-config.$pseudo, true);
+
+  // 导入 size 相关的样式
+  @include button-variant(button-config.$size);
+}
