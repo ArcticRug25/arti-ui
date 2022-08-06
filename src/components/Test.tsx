@@ -38,12 +38,12 @@ export default defineComponent({
 
       return (
         <div onClick={withModifiers(inc, ['self'])}>
-          {count.value}
-          <input
+          test: {count.value}
+          {/* <input
             type="text"
             v-focus={['val', 'arg', ['modifier']]}
             v-model={count.value}
-          />
+          /> */}
           <div>{span}</div>
           <ul>
             {list.value.map(string => (

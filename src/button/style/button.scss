@@ -1,6 +1,6 @@
 // button/src/button.scss
-@use './button-config.scss';
-@import './button-base.scss';
+@use "./button-config.scss";
+@import "./button-base";
 
 .at-btn {
   @include button-base;
