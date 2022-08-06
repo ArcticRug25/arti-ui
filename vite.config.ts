@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -10,6 +12,15 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '#': path.resolve(__dirname, 'types')
+    }
+  },
+  test: {
+    globals: true,
+    // 模拟 DOM 环境
+    environment: 'happy-dom',
+    // 支持 jsx
+    transformMode: {
+      web: [/.[tj]sx$/]
     }
   }
 })
