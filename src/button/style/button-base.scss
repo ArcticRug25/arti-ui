@@ -26,7 +26,11 @@
 
     // 禁用状态
     &[disabled] {
-      @apply cursor-not-allowed
+      @apply cursor-not-allowed;
+    }
+
+    &.at-btn--block {
+      @apply block w-full;
     }
 }
 

@@ -20,7 +20,7 @@ const confirm = () => {
     </template>
   </Test>
 
-  <ATButton type="primary" size="large">按钮1</ATButton>
+  <ATButton type="primary" size="large" block>按钮1</ATButton>
   <ATButton type="primary" size="small" disabled @click="confirm"
     >按钮2</ATButton
   >
